@@ -22,19 +22,22 @@ An interactive AI-powered Streamlit chatbot that simulates a mini technical recr
 ```bash
 git clone https://github.com/Mothi-S/TalentScout-Hiring-Assistant-chatbot.git
 cd TalentScout-Hiring-Assistant-chatbot
+```
 
-2. Set Up Virtual Environment
-
+### 2. Set Up Virtual Environment
+```bash
 python -m venv venv
 venv\Scripts\activate  # For Windows
-# OR
+OR
 source venv/bin/activate  # For macOS/Linux
+```
 
-3. Install Dependencies
-
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4. Download and Add the LLaMA 2 Model
+### 4. Download and Add the LLaMA 2 Model
 
 Download the quantized LLaMA 2 7B model file (llama-2-7b-chat.ggmlv3.q8_0.bin) from Hugging Face:
 
@@ -42,8 +45,8 @@ Download the quantized LLaMA 2 7B model file (llama-2-7b-chat.ggmlv3.q8_0.bin) f
 
 Create a folder named models/ in the project directory and place the .bin file inside it:
 
-5. Run the Application
-
+### 5. Run the Application
+```bash
 streamlit run app.py
-
+```
 
