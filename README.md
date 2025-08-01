@@ -32,7 +32,7 @@ talentscout-hiring-assistant/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Mothi-S/TalentScout-Hiring-Assistant-chatbot.git
 cd TalentScout-Hiring-Assistant-chatbot
 
